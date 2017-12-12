@@ -20,3 +20,13 @@ trainingInput:
         minValue: 0.1
         maxValue: 1.0
         scaleType: UNIT_REVERSE_LOG_SCALE
+      - parameterName: catParam
+        type: CATEGORICAL
+        categoricalValues:
+                - lol
+                - rofl
+      - parameterName: discreteParam
+        type: DISCRETE
+        discreteValues:
+                - 1
+                - 2

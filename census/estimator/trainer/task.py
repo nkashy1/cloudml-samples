@@ -172,6 +172,18 @@ if __name__ == '__main__':
       default='JSON'
   )
 
+  # HPTuning test params
+  parser.add_argument(
+      '--catParam',
+      choices=['lol', 'rofl']
+  )
+
+  parser.add_argument(
+      '--discreteParam',
+      choices=[1,2],
+      type=int
+  )
+
   args = parser.parse_args()
 
   # Set python level verbosity
